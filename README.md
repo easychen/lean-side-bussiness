@@ -9,6 +9,8 @@
 
 ![cover.jpg](cover.jpg)
 
+[在线阅读](http://r.ftqq.com/lean-side-bussiness/)
+
 # 目录
 
 * [为什么副业特别重要](src/01.md)
