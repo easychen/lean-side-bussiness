@@ -1,0 +1,263 @@
+<!DOCTYPE HTML>
+<html lang="zh-cn" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>文稿讲义类课程片段的制作 - 精益副业</title>
+        <!-- Custom HTML head -->
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="index.html"><strong aria-hidden="true">1.</strong> 精益副业</a></li><li class="chapter-item expanded "><a href="01.html"><strong aria-hidden="true">2.</strong> 为什么副业特别重要</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="0101.html"><strong aria-hidden="true">2.1.</strong> 职业可能性</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="010101.html"><strong aria-hidden="true">2.1.1.</strong> 职业的四大象限</a></li><li class="chapter-item expanded "><a href="010102.html"><strong aria-hidden="true">2.1.2.</strong> 没有副业的职业</a></li><li class="chapter-item expanded "><a href="010103.html"><strong aria-hidden="true">2.1.3.</strong> 副业带来的可能性</a></li></ol></li><li class="chapter-item expanded "><a href="0102.html"><strong aria-hidden="true">2.2.</strong> 职业自由度</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="010201.html"><strong aria-hidden="true">2.2.1.</strong> 从中指备用金说起</a></li><li class="chapter-item expanded "><a href="010202.html"><strong aria-hidden="true">2.2.2.</strong> PlanB和反脆弱</a></li><li class="chapter-item expanded "><a href="010203.html"><strong aria-hidden="true">2.2.3.</strong> 全新的工作自由度</a></li></ol></li><li class="chapter-item expanded "><a href="0103.html"><strong aria-hidden="true">2.3.</strong> 职业成长性</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="010301A.html"><strong aria-hidden="true">2.3.1.</strong> 新技术练兵场</a></li><li class="chapter-item expanded "><a href="010302.html"><strong aria-hidden="true">2.3.2.</strong> 业务敏感度</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="02.html"><strong aria-hidden="true">3.</strong> 如何优雅地做副业</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="0201.html"><strong aria-hidden="true">3.1.</strong> 想明白核心资源和核心优势</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="020101.html"><strong aria-hidden="true">3.1.1.</strong> 副业的核心资源</a></li><li class="chapter-item expanded "><a href="020102.html"><strong aria-hidden="true">3.1.2.</strong> 副业的核心优势</a></li></ol></li><li class="chapter-item expanded "><a href="0202.html"><strong aria-hidden="true">3.2.</strong> 时间片</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="020201.html"><strong aria-hidden="true">3.2.1.</strong> 时间片的销售</a></li><li class="chapter-item expanded "><a href="020202.html"><strong aria-hidden="true">3.2.2.</strong> 时间片的优化</a></li><li class="chapter-item expanded "><a href="020203.html"><strong aria-hidden="true">3.2.3.</strong> 突破时间片限制</a></li></ol></li><li class="chapter-item expanded "><a href="0203.html"><strong aria-hidden="true">3.3.</strong> 资产和被动收入</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="020301.html"><strong aria-hidden="true">3.3.1.</strong> 什么是资产</a></li><li class="chapter-item expanded "><a href="020302.html"><strong aria-hidden="true">3.3.2.</strong> 资产的获得方式</a></li><li class="chapter-item expanded "><a href="020303.html"><strong aria-hidden="true">3.3.3.</strong> 资产的量化评估</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="03.html"><strong aria-hidden="true">4.</strong> 优选资产</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="0301.html"><strong aria-hidden="true">4.1.</strong> 知识和人脉的变现</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="030101.html"><strong aria-hidden="true">4.1.1.</strong> 付费视频课</a></li><li class="chapter-item expanded "><a href="030102.html"><strong aria-hidden="true">4.1.2.</strong> 付费专栏</a></li><li class="chapter-item expanded "><a href="030103.html"><strong aria-hidden="true">4.1.3.</strong> 付费社群</a></li><li class="chapter-item expanded "><a href="030104.html"><strong aria-hidden="true">4.1.4.</strong> 图书出版</a></li></ol></li><li class="chapter-item expanded "><a href="0302.html"><strong aria-hidden="true">4.2.</strong> 自有产品和服务</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="030201.html"><strong aria-hidden="true">4.2.1.</strong> 应用市场卖APP</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="04.html"><strong aria-hidden="true">5.</strong> 精益副业</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="0401.html"><strong aria-hidden="true">5.1.</strong> 精益副业流程</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="040104.html"><strong aria-hidden="true">5.1.1.</strong> 商业模式画布</a></li><li class="chapter-item expanded "><a href="040105.html"><strong aria-hidden="true">5.1.2.</strong> 最小可行产品和产品市场契合</a></li></ol></li><li class="chapter-item expanded "><a href="0403.html"><strong aria-hidden="true">5.2.</strong> 精益独立开发实践</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="040301.html"><strong aria-hidden="true">5.2.1.</strong> 独立开发的精益流程</a></li><li class="chapter-item expanded "><a href="040302.html"><strong aria-hidden="true">5.2.2.</strong> 福利单词项目简介</a></li><li class="chapter-item expanded "><a href="040303.html"><strong aria-hidden="true">5.2.3.</strong> 福利单词的商业模式画布</a></li><li class="chapter-item expanded "><a href="040304.html"><strong aria-hidden="true">5.2.4.</strong> 通过用户画像细化客户</a></li><li class="chapter-item expanded "><a href="040305.html"><strong aria-hidden="true">5.2.5.</strong> 画像→场景→功能和分期</a></li><li class="chapter-item expanded "><a href="040306.html"><strong aria-hidden="true">5.2.6.</strong> 什么是好的商业设计</a></li><li class="chapter-item expanded "><a href="040307.html"><strong aria-hidden="true">5.2.7.</strong> 人人能用的四大原则</a></li><li class="chapter-item expanded "><a href="040308.html"><strong aria-hidden="true">5.2.8.</strong> 独特Logo解决方案</a></li><li class="chapter-item expanded "><a href="040309.html"><strong aria-hidden="true">5.2.9.</strong> 使用AdobeXD设计界面</a></li><li class="chapter-item expanded "><a href="040310.html"><strong aria-hidden="true">5.2.10.</strong> 个人支付解决方案</a></li><li class="chapter-item expanded "><a href="040311.html"><strong aria-hidden="true">5.2.11.</strong> 使用「兔小巢」处理用户反馈</a></li><li class="chapter-item expanded "><a href="040312.html"><strong aria-hidden="true">5.2.12.</strong> 2A3R漏斗和增长优化</a></li></ol></li><li class="chapter-item expanded "><a href="0402.html"><strong aria-hidden="true">5.3.</strong> 精益网课变现实践</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="040207.html"><strong aria-hidden="true">5.3.1.</strong> 大纲的注意点</a></li><li class="chapter-item expanded "><a href="040209.html"><strong aria-hidden="true">5.3.2.</strong> 通过预售验证销量</a></li><li class="chapter-item expanded "><a href="040210.html"><strong aria-hidden="true">5.3.3.</strong> 常见的课程片段类型</a></li><li class="chapter-item expanded "><a href="040211.html" class="active"><strong aria-hidden="true">5.3.4.</strong> 文稿讲义类课程片段的制作</a></li><li class="chapter-item expanded "><a href="040212.html"><strong aria-hidden="true">5.3.5.</strong> 屏幕录制类课程片段的制作</a></li><li class="chapter-item expanded "><a href="040213.html"><strong aria-hidden="true">5.3.6.</strong> 真人出镜类课程片段的制作</a></li><li class="chapter-item expanded "><a href="040214.html"><strong aria-hidden="true">5.3.7.</strong> 虚拟形象类课程片段的制作</a></li><li class="chapter-item expanded "><a href="040215.html"><strong aria-hidden="true">5.3.8.</strong> 最常用的视频剪辑操作</a></li><li class="chapter-item expanded "><a href="040216.html"><strong aria-hidden="true">5.3.9.</strong> 最常用的音频处理操作</a></li><li class="chapter-item expanded "><a href="040217.html"><strong aria-hidden="true">5.3.10.</strong> 字幕的制作和自动生成</a></li><li class="chapter-item expanded "><a href="040218.html"><strong aria-hidden="true">5.3.11.</strong> 流量池和二次购买</a></li><li class="chapter-item expanded "><a href="040219.html"><strong aria-hidden="true">5.3.12.</strong> 如何有效地反盗版</a></li></ol></li><li class="chapter-item expanded "><a href="0404.html"><strong aria-hidden="true">5.4.</strong> 进一步提升副业的鲁棒性</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="040401.html"><strong aria-hidden="true">5.4.1.</strong> 网课+独立开发的双引擎副业模式</a></li></ol></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">精益副业</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="文稿讲义类课程片段的制作"><a class="header" href="#文稿讲义类课程片段的制作">文稿讲义类课程片段的制作</a></h1>
+<p>这里的文稿讲义，主要指使用幻灯片软件来进行播放的资料。如果是使用PDF这类材料，其实是属于「屏幕录制」类，我们会在下一节里详细讲解。</p>
+<p>对于文稿讲义类课程片段，我们的画面、图文内容都已经做到了幻灯片里面，要录制的主要是声音。但我们有三种截然不同的方式来录制声音：</p>
+<ol>
+<li>第一种是最通用的，通过全局录屏来完成。不管是使用什么软件，只要在电脑里，都会被录下来。</li>
+<li>第二种是使用幻灯片软件自带的「演讲录制」功能来完成。</li>
+<li>第三种是最不为人知的，通过幻灯片软件的「导出为视频」来完成，这种方式有一个非常大的优点，可以极大地降低修改成本，在后文中会详细说明</li>
+</ol>
+<p>下边我们分别说明。</p>
+<h2 id="全局录屏"><a class="header" href="#全局录屏">全局录屏</a></h2>
+<p>下一节会详细讲，这里就略过了。</p>
+<h2 id="使用幻灯片软件自带的演讲录制功能"><a class="header" href="#使用幻灯片软件自带的演讲录制功能">使用幻灯片软件自带的「演讲录制」功能</a></h2>
+<p><img src="images/c48467622504fd20139b9facb5c82bfeb47b520981cd8944945e3031eac8e3ea.png" alt="picture 50" /></p>
+<p>目前用得最多的幻灯片软件，分别是苹果公司的 Keynote 和微软的 PowerPoint。下边我们就以它们为例进行讲解。</p>
+<p>首先，我们需要使用幻灯片软件将内容制作完成。课程完成度越高，修改起来成本就越高，所以要仔细检查有无错别字或其他疏漏，然后再进入音频录制阶段。</p>
+<h3 id="如何使用-keynote-的录制幻灯片放映功能生成视频课程"><a class="header" href="#如何使用-keynote-的录制幻灯片放映功能生成视频课程">如何使用 Keynote 的「录制幻灯片放映」功能生成视频课程</a></h3>
+<p>我们先来看在 Keynote 中如何录制。</p>
+<p>在 Keynote 菜单「播放」里选择「录制幻灯片放映」</p>
+<p><img src="images/4337caaa4668cfccc22d78f53e4c33aac4a153f59b19f2ec4784361c9f5e3a97.png" alt="picture 52" /></p>
+<p>然后我们就会进入一个深色背景的幻灯片录制的环境，在这个界面的最下方有一个红色的录制按钮。</p>
+<p><img src="images/e3dbf39810582264b549713559ad74fbd61ca381ba4aafd8d184af01eb8846b9.png" alt="picture 53" /></p>
+<p>点击它就可以开始进行录音，可以随时暂停和停止。需要注意的是，这里录制的音频不是仅仅当前这页幻灯片的，而是整个幻灯片的。你可以来回切换幻灯片来录制音频，如果界面看到的有些不一样，可以通过调整预览界面的配置来修改。</p>
+<p>当我们在录制环境中完成了整个课程的音频录制后，就可以回到主界面。从菜单中选择「文件」→「导出为」→「影片」。</p>
+<p><img src="images/1ab07e080b3cca082ec91222ee89e257f7c0ed8659c93b1a1fb346a29059873e.png" alt="picture 54" /></p>
+<p>这样，Keynote 就会为刚才的录制生成视频。有一个需要特别注意的地方，就是导出窗口中，「播放」选项要选择为「幻灯片放映录制」。</p>
+<p><img src="images/a981d56cac16f4c869c7a7e5a52c277a4a477140cdffff913f59e7ab51cf3f0d.png" alt="picture 55" /></p>
+<p>如果觉得导出的视频文件过大，可以使用<a href="https://handbrake.fr/">HandBrake</a>来进行压缩。这是一款开源的视频压缩软件，默认的预置（比如 fast1080p ）就很好用。</p>
+<p><img src="images/45959232a5e2e9924bfcdf3f81d14c09ab15db29f72bc4e1ed0216271189e2ef.png" alt="picture 56" /></p>
+<h3 id="如何使用-powerpoint的录制幻灯片演示功能生成视频课程"><a class="header" href="#如何使用-powerpoint的录制幻灯片演示功能生成视频课程">如何使用 PowerPoint的「录制幻灯片演示」功能生成视频课程</a></h3>
+<p>下边我们来看 PowerPoint 中如何操作，其实很类似，只是菜单名称和个别细节不同。选择菜单「幻灯片放映」→「录制幻灯片演示」。</p>
+<p><img src="images/6f07bd8227d02e9bda09e1bdd9c9a571a3cf9e1d3e737f92c1d35ce932b83042.png" alt="picture 57" /> </p>
+<p>同样会进入一个暗色的录制界面。</p>
+<p><img src="images/97d77635cb7d5df941eaa17ec58c146795d434c41adfc5062dca1a8695ad2254.png" alt="picture 58" /></p>
+<p>在左上角有一个时间正在走，在旁边有控制按钮，可以暂停。默认已经开始录制了，我们可以选择幻灯片进行讲解。全部讲解完成后，一样是导出视频。</p>
+<p><img src="images/1191cf4a01b99611b66ed3c27c165b693fecb76bc0ca25ad9cae1499b572e22c.png" alt="picture 59" /></p>
+<p>在顶部菜单中选择「文件」→「导出」。</p>
+<p><img src="images/cec3b12624048239067638dd44e72821651650923d900e37c6daf04b1a5827e7.png" alt="picture 60" /></p>
+<p>也有一个需要特别注意的地方，就是在导出窗口中要选中「使用录制时的计时和旁白」。</p>
+<h2 id="幻灯片导出为视频"><a class="header" href="#幻灯片导出为视频">幻灯片导出为视频</a></h2>
+<p>单从录制来讲，前一种方法就非常方便了，可以说是一气呵成。但如果录制完成后我们发现有几句话讲错了需要修改，那么就相当麻烦了。究其原因，主要在于虽然幻灯片是一页一页的，但音频却是整体录制的，所以音频出问题就只能重录。</p>
+<p>那么我们能不能让音频也变成一段一段的，对应到每一页呢？这样我们以后再修改的时候，只需要重新录制那一页的音频。</p>
+<p><img src="images/599b66d00f2ed6d594481f4709efdb806a286f5b3044451f085d305838fec595.png" alt="picture 62" /></p>
+<p>这就是我们第三种方案的思路。Keynote 和 PowerPoint 虽然没有提供分页录制的功能，但它们都能往幻灯片上添加音频，并将其合并到视频中统一输出。</p>
+<p>所以我们要做的，就是在每一页幻灯片上，添加上语音讲解的音频。比较方便的地方是，这两个软件都支持直接录制语音讲解，而且一页幻灯片上可以录制多段，还能手工调整顺序。</p>
+<p>下边我们来看具体如何操作。</p>
+<h3 id="如何使用-keynote-以导出为视频的方式生成视频课程"><a class="header" href="#如何使用-keynote-以导出为视频的方式生成视频课程">如何使用 Keynote 以「导出为视频」的方式生成视频课程</a></h3>
+<p>还是先来看 Keynote。第一步依然是制作好图文部分的内容，最好把要讲的文稿放到演讲者注释区域，这样录制的时候可以参考。</p>
+<p>然后先选中要添加语音讲解的幻灯片，从菜单中选择「插入」→「录制音频」。</p>
+<p><img src="images/a7a43110944657403e8d3b11d6be36697b61c99332d81b73de6ae0c49831c47e.png" alt="picture 63" /></p>
+<p>在弹出的小窗口中点击录音按钮就可以开始录音。</p>
+<p><img src="images/a7a98dfa95345bbc1f26610f6bd7e3086a277651602c150e125e44c4f7c5f787.png" alt="picture 64" /></p>
+<p>录制完成可以试听，没问题后再插入到当前幻灯片。当一张幻灯片有多个音频时，可以选择右上角的「动画效果」菜单，再点击右下角的「构建顺序」就可以看到当前幻灯片中的音频列表了。被选中的时候，会有蓝色描边，通过拖拽可以很方便地调整顺序。</p>
+<p><img src="images/b8c313f44cba666a1847fbd0c8824477450db40778a8469471aeb64a14525042.png" alt="picture 65" /></p>
+<p>导出和之前类似，还是通过「文件」→「导出为」→「影片」。
+<img src="images/07baab737938ac8bbd26763259987386c739c9ba24c0accd9f5c1ebd587d35de.png" alt="picture 66" /></p>
+<p>但需要注意的是，这次在导出窗口中，播放选项要选为「自动播放」。</p>
+<p><img src="images/7bda56add02c02a8526ca07abdb920c4c529283ebe6407b45525d0bcae280a66.png" alt="picture 67" /></p>
+<p>同时，我们还要把下边两个等待时间设置为「0」秒钟。</p>
+<p><img src="images/7c3bb0b3a981fbce8b2c90b499f54a91c83204a56800178a6b8db14998a1a62d.png" alt="picture 68" /></p>
+<h3 id="如何使用-powerpoint-以导出为视频的方式生成视频课程"><a class="header" href="#如何使用-powerpoint-以导出为视频的方式生成视频课程">如何使用 PowerPoint 以「导出为视频」的方式生成视频课程</a></h3>
+<p>再来看看 PowerPoint 里边的做法。给幻灯片添加语音讲义也在菜单「插入」→「音频」中。</p>
+<p><img src="images/c0e9d9fb1f06855e29edd36169751807fd0a8b7603f3f5e6bbb7aa56e28f5520.png" alt="picture 69" /></p>
+<p>选择「录制音频」可以直接录制。</p>
+<p><img src="images/b78f1919a9e4b1c5b454012ba3346219492b276c0d3be9de75e7c9add17c563f.png" alt="picture 70" /></p>
+<p>下边我们看看怎么调整多个音频的顺序。点击「动画」菜单，在右边会出现一个「动画窗格」，再点击它，在最右边就可以看到当前幻灯片上所有的音频的列表。</p>
+<p>音频前边还有编号，可以一一对应到幻灯片上的音频。通过调节它们的上下顺序就可以手动的指定最终的音频播放顺序。</p>
+<p>细心的同学可能会留意到这些音频都会被放到一个叫做动画的菜单里面，其实这个菜单的功能是指定动画播放的顺序，音频被当做动画的一种，所以也在里边了。通过同样的方式还可以控制插入的视频的播放顺序。</p>
+<p><img src="images/72f5504455129efec0cab7ec832cf5c62aad5ec2062f1db56bdf920611a8ef68.png" alt="picture 71" /></p>
+<p>最后依然是通过「文件」→「导出」来生成视频，但是记得去掉「使用录制的计时和旁白」前的小勾，同时把「没有设置时间的每张幻灯片所用的秒数」设置为「0」。</p>
+<p><img src="images/3afe2c5e9b362d4b072d0cfa530d38710724f8b1947c6968a08a0a1971f3cef7.png" alt="picture 72" /></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="040210.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="040212.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="040210.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="040212.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            var socket = new WebSocket("ws://localhost:3000/__livereload");
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>

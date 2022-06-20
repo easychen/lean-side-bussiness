@@ -1,0 +1,6 @@
+[book]
+authors = ["Easy"]
+language = "zh-cn"
+multilingual = false
+src = "src"
+title = "精益副业"

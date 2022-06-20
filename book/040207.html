@@ -1,0 +1,232 @@
+<!DOCTYPE HTML>
+<html lang="zh-cn" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>大纲的注意点 - 精益副业</title>
+        <!-- Custom HTML head -->
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="index.html"><strong aria-hidden="true">1.</strong> 精益副业</a></li><li class="chapter-item expanded "><a href="01.html"><strong aria-hidden="true">2.</strong> 为什么副业特别重要</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="0101.html"><strong aria-hidden="true">2.1.</strong> 职业可能性</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="010101.html"><strong aria-hidden="true">2.1.1.</strong> 职业的四大象限</a></li><li class="chapter-item expanded "><a href="010102.html"><strong aria-hidden="true">2.1.2.</strong> 没有副业的职业</a></li><li class="chapter-item expanded "><a href="010103.html"><strong aria-hidden="true">2.1.3.</strong> 副业带来的可能性</a></li></ol></li><li class="chapter-item expanded "><a href="0102.html"><strong aria-hidden="true">2.2.</strong> 职业自由度</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="010201.html"><strong aria-hidden="true">2.2.1.</strong> 从中指备用金说起</a></li><li class="chapter-item expanded "><a href="010202.html"><strong aria-hidden="true">2.2.2.</strong> PlanB和反脆弱</a></li><li class="chapter-item expanded "><a href="010203.html"><strong aria-hidden="true">2.2.3.</strong> 全新的工作自由度</a></li></ol></li><li class="chapter-item expanded "><a href="0103.html"><strong aria-hidden="true">2.3.</strong> 职业成长性</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="010301A.html"><strong aria-hidden="true">2.3.1.</strong> 新技术练兵场</a></li><li class="chapter-item expanded "><a href="010302.html"><strong aria-hidden="true">2.3.2.</strong> 业务敏感度</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="02.html"><strong aria-hidden="true">3.</strong> 如何优雅地做副业</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="0201.html"><strong aria-hidden="true">3.1.</strong> 想明白核心资源和核心优势</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="020101.html"><strong aria-hidden="true">3.1.1.</strong> 副业的核心资源</a></li><li class="chapter-item expanded "><a href="020102.html"><strong aria-hidden="true">3.1.2.</strong> 副业的核心优势</a></li></ol></li><li class="chapter-item expanded "><a href="0202.html"><strong aria-hidden="true">3.2.</strong> 时间片</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="020201.html"><strong aria-hidden="true">3.2.1.</strong> 时间片的销售</a></li><li class="chapter-item expanded "><a href="020202.html"><strong aria-hidden="true">3.2.2.</strong> 时间片的优化</a></li><li class="chapter-item expanded "><a href="020203.html"><strong aria-hidden="true">3.2.3.</strong> 突破时间片限制</a></li></ol></li><li class="chapter-item expanded "><a href="0203.html"><strong aria-hidden="true">3.3.</strong> 资产和被动收入</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="020301.html"><strong aria-hidden="true">3.3.1.</strong> 什么是资产</a></li><li class="chapter-item expanded "><a href="020302.html"><strong aria-hidden="true">3.3.2.</strong> 资产的获得方式</a></li><li class="chapter-item expanded "><a href="020303.html"><strong aria-hidden="true">3.3.3.</strong> 资产的量化评估</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="03.html"><strong aria-hidden="true">4.</strong> 优选资产</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="0301.html"><strong aria-hidden="true">4.1.</strong> 知识和人脉的变现</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="030101.html"><strong aria-hidden="true">4.1.1.</strong> 付费视频课</a></li><li class="chapter-item expanded "><a href="030102.html"><strong aria-hidden="true">4.1.2.</strong> 付费专栏</a></li><li class="chapter-item expanded "><a href="030103.html"><strong aria-hidden="true">4.1.3.</strong> 付费社群</a></li><li class="chapter-item expanded "><a href="030104.html"><strong aria-hidden="true">4.1.4.</strong> 图书出版</a></li></ol></li><li class="chapter-item expanded "><a href="0302.html"><strong aria-hidden="true">4.2.</strong> 自有产品和服务</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="030201.html"><strong aria-hidden="true">4.2.1.</strong> 应用市场卖APP</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="04.html"><strong aria-hidden="true">5.</strong> 精益副业</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="0401.html"><strong aria-hidden="true">5.1.</strong> 精益副业流程</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="040104.html"><strong aria-hidden="true">5.1.1.</strong> 商业模式画布</a></li><li class="chapter-item expanded "><a href="040105.html"><strong aria-hidden="true">5.1.2.</strong> 最小可行产品和产品市场契合</a></li></ol></li><li class="chapter-item expanded "><a href="0403.html"><strong aria-hidden="true">5.2.</strong> 精益独立开发实践</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="040301.html"><strong aria-hidden="true">5.2.1.</strong> 独立开发的精益流程</a></li><li class="chapter-item expanded "><a href="040302.html"><strong aria-hidden="true">5.2.2.</strong> 福利单词项目简介</a></li><li class="chapter-item expanded "><a href="040303.html"><strong aria-hidden="true">5.2.3.</strong> 福利单词的商业模式画布</a></li><li class="chapter-item expanded "><a href="040304.html"><strong aria-hidden="true">5.2.4.</strong> 通过用户画像细化客户</a></li><li class="chapter-item expanded "><a href="040305.html"><strong aria-hidden="true">5.2.5.</strong> 画像→场景→功能和分期</a></li><li class="chapter-item expanded "><a href="040306.html"><strong aria-hidden="true">5.2.6.</strong> 什么是好的商业设计</a></li><li class="chapter-item expanded "><a href="040307.html"><strong aria-hidden="true">5.2.7.</strong> 人人能用的四大原则</a></li><li class="chapter-item expanded "><a href="040308.html"><strong aria-hidden="true">5.2.8.</strong> 独特Logo解决方案</a></li><li class="chapter-item expanded "><a href="040309.html"><strong aria-hidden="true">5.2.9.</strong> 使用AdobeXD设计界面</a></li><li class="chapter-item expanded "><a href="040310.html"><strong aria-hidden="true">5.2.10.</strong> 个人支付解决方案</a></li><li class="chapter-item expanded "><a href="040311.html"><strong aria-hidden="true">5.2.11.</strong> 使用「兔小巢」处理用户反馈</a></li><li class="chapter-item expanded "><a href="040312.html"><strong aria-hidden="true">5.2.12.</strong> 2A3R漏斗和增长优化</a></li></ol></li><li class="chapter-item expanded "><a href="0402.html"><strong aria-hidden="true">5.3.</strong> 精益网课变现实践</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="040207.html" class="active"><strong aria-hidden="true">5.3.1.</strong> 大纲的注意点</a></li><li class="chapter-item expanded "><a href="040209.html"><strong aria-hidden="true">5.3.2.</strong> 通过预售验证销量</a></li><li class="chapter-item expanded "><a href="040210.html"><strong aria-hidden="true">5.3.3.</strong> 常见的课程片段类型</a></li><li class="chapter-item expanded "><a href="040211.html"><strong aria-hidden="true">5.3.4.</strong> 文稿讲义类课程片段的制作</a></li><li class="chapter-item expanded "><a href="040212.html"><strong aria-hidden="true">5.3.5.</strong> 屏幕录制类课程片段的制作</a></li><li class="chapter-item expanded "><a href="040213.html"><strong aria-hidden="true">5.3.6.</strong> 真人出镜类课程片段的制作</a></li><li class="chapter-item expanded "><a href="040214.html"><strong aria-hidden="true">5.3.7.</strong> 虚拟形象类课程片段的制作</a></li><li class="chapter-item expanded "><a href="040215.html"><strong aria-hidden="true">5.3.8.</strong> 最常用的视频剪辑操作</a></li><li class="chapter-item expanded "><a href="040216.html"><strong aria-hidden="true">5.3.9.</strong> 最常用的音频处理操作</a></li><li class="chapter-item expanded "><a href="040217.html"><strong aria-hidden="true">5.3.10.</strong> 字幕的制作和自动生成</a></li><li class="chapter-item expanded "><a href="040218.html"><strong aria-hidden="true">5.3.11.</strong> 流量池和二次购买</a></li><li class="chapter-item expanded "><a href="040219.html"><strong aria-hidden="true">5.3.12.</strong> 如何有效地反盗版</a></li></ol></li><li class="chapter-item expanded "><a href="0404.html"><strong aria-hidden="true">5.4.</strong> 进一步提升副业的鲁棒性</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="040401.html"><strong aria-hidden="true">5.4.1.</strong> 网课+独立开发的双引擎副业模式</a></li></ol></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">精益副业</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="大纲的注意点"><a class="header" href="#大纲的注意点">大纲的注意点</a></h1>
+<p>这一节我们来讲大纲。大纲大家都会做，所以我们不全面的展开，只挑其中一些需要注意的点和大家交流。</p>
+<h2 id="条理性"><a class="header" href="#条理性">条理性</a></h2>
+<p>最重要的一点，就是大纲一定要有条理性。如果在条例性上做得不够好，其他细节做得再好，这个课做出来在逻辑上也是乱的，最后学起来就会很别扭。</p>
+<p>具体来说，我们要保证大纲的层次足够清楚，逻辑足够严密。有一个比较常用的结构推荐给大家，尤其适合知识性为课程。</p>
+<h3 id="三段式"><a class="header" href="#三段式">三段式</a></h3>
+<p>这个结构分成三段，是一个总、分、总的结构。</p>
+<h4 id="总"><a class="header" href="#总">总</a></h4>
+<p>在课程的最开始，我们会简明扼要地讲明白整个课程包含哪些内容；课程中的一些基础、原理也会放到这里。</p>
+<h4 id="分"><a class="header" href="#分">分</a></h4>
+<p>之后呢，我们就可以按照章节进行展开，对每一个部分进行详细地讲解。</p>
+<h4 id="总-1"><a class="header" href="#总-1">总</a></h4>
+<p>在最后我们会进行一个总结，同时放入一个大的实践章节。这样不但可以复习内容，还可以学以致用。当然在每一章结尾也可以安排小实践内容。</p>
+<p>绝大部分以知识讲授为主的课程都可以采用这种总分总的结构，非常好用。</p>
+<h3 id="提问式"><a class="header" href="#提问式">提问式</a></h3>
+<p>我们也可以用问问题的方式来引出我们的每一部分结构。比如「是什么」——「为什么」——「怎么做」。这种结构可以是全局的，也可以是针对每一部分的。它会让我们的逻辑和层次更清晰。</p>
+<h2 id="覆盖面"><a class="header" href="#覆盖面">覆盖面</a></h2>
+<p>第二个需要注意的点是覆盖面。因为我们的课程往往是出于自己的实践经验，有时候会局限于我们所在的公司和所在的行业节点，它的覆盖不一定特别的全。所以我们的视角不一定能覆盖到所有的需求方。</p>
+<p>有时候我们的课程是为了一类人做的，但另外一类人，实际上也可以学习我们的课程，就差一点点的周边知识。在这种情况下，如果我们可以注意到大纲的覆盖面，把缺少的那点知识补上，就可以扩大受众，让我们的销售变得更为容易。</p>
+<p>那具体怎么保证大纲的覆盖面呢？</p>
+<p>那首先大纲应该覆盖该领域的主要内容，这些内容通常来源于以下几个地方：</p>
+<ol>
+<li>官方文档：官方会处理几乎所有来自社区和其他客户的需求，即使一些边缘的需求，因为囤积的时间比较长，也会慢慢地累积起来，所以一般来讲官方资料的覆盖度是最为全面的</li>
+<li>行业的权威文档：虽然不是官方出品的，但因为日积月累它最后可能变成了事实标准，也是我们作为参考的一个主要来源</li>
+<li>图书：这也是大参考源，对于经典知识来讲，一些销量比较好的图书，会经过多次的再版，并会加入一些之前没有覆盖的内容。使用微信读书的无限卡，无需购买就可以直接搜索大量计算机图书，对查资料来讲非常好用</li>
+<li>同类课程：国外的同类课程往往也是非常好的参考，尤其是面向新技术的课程</li>
+</ol>
+<p>然后呢，我们的大纲应该覆盖该领域最频繁出现的问题，那我们到什么地方找问题呢？</p>
+<ol>
+<li>搜索关键词</li>
+<li>专业问答网站，比如 stackoverflow.com</li>
+<li>GitHub 的 issue 区</li>
+<li>课程平台的答疑区</li>
+</ol>
+<h2 id="粒度"><a class="header" href="#粒度">粒度</a></h2>
+<p>除了条例性和覆盖面，那我们最后，而且其实也是非常想强调的一个问题，就是大家一定要注意我们大纲的粒度。</p>
+<p>大纲这名字听起来就像一个目录，很具备误导性。很多同学做大纲的时候，通常做两个层次就算是做得细的了。事实上，大纲的粒度越细，课程的品质就越可控，后期制作起来速度就越快。而且我们要拿大纲去做预售来验证需求，它越细，验证的效果就越好。</p>
+<p>所以呢，建议大家把大纲至少细化到段落这个级别，同时把段落以下的一些知识点所涉及到的素材和资料，全部都整理到这个节点上去。</p>
+<p>这里推荐大家使用 Dynalist 这种无限分级的树状笔记软件来做大纲，会特别方便。</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="0402.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="040209.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="0402.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="040209.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            var socket = new WebSocket("ws://localhost:3000/__livereload");
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>

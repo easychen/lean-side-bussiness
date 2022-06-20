@@ -1,0 +1,257 @@
+<!DOCTYPE HTML>
+<html lang="zh-cn" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>时间片的优化 - 精益副业</title>
+        <!-- Custom HTML head -->
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="index.html"><strong aria-hidden="true">1.</strong> 精益副业</a></li><li class="chapter-item expanded "><a href="01.html"><strong aria-hidden="true">2.</strong> 为什么副业特别重要</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="0101.html"><strong aria-hidden="true">2.1.</strong> 职业可能性</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="010101.html"><strong aria-hidden="true">2.1.1.</strong> 职业的四大象限</a></li><li class="chapter-item expanded "><a href="010102.html"><strong aria-hidden="true">2.1.2.</strong> 没有副业的职业</a></li><li class="chapter-item expanded "><a href="010103.html"><strong aria-hidden="true">2.1.3.</strong> 副业带来的可能性</a></li></ol></li><li class="chapter-item expanded "><a href="0102.html"><strong aria-hidden="true">2.2.</strong> 职业自由度</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="010201.html"><strong aria-hidden="true">2.2.1.</strong> 从中指备用金说起</a></li><li class="chapter-item expanded "><a href="010202.html"><strong aria-hidden="true">2.2.2.</strong> PlanB和反脆弱</a></li><li class="chapter-item expanded "><a href="010203.html"><strong aria-hidden="true">2.2.3.</strong> 全新的工作自由度</a></li></ol></li><li class="chapter-item expanded "><a href="0103.html"><strong aria-hidden="true">2.3.</strong> 职业成长性</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="010301A.html"><strong aria-hidden="true">2.3.1.</strong> 新技术练兵场</a></li><li class="chapter-item expanded "><a href="010302.html"><strong aria-hidden="true">2.3.2.</strong> 业务敏感度</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="02.html"><strong aria-hidden="true">3.</strong> 如何优雅地做副业</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="0201.html"><strong aria-hidden="true">3.1.</strong> 想明白核心资源和核心优势</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="020101.html"><strong aria-hidden="true">3.1.1.</strong> 副业的核心资源</a></li><li class="chapter-item expanded "><a href="020102.html"><strong aria-hidden="true">3.1.2.</strong> 副业的核心优势</a></li></ol></li><li class="chapter-item expanded "><a href="0202.html"><strong aria-hidden="true">3.2.</strong> 时间片</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="020201.html"><strong aria-hidden="true">3.2.1.</strong> 时间片的销售</a></li><li class="chapter-item expanded "><a href="020202.html" class="active"><strong aria-hidden="true">3.2.2.</strong> 时间片的优化</a></li><li class="chapter-item expanded "><a href="020203.html"><strong aria-hidden="true">3.2.3.</strong> 突破时间片限制</a></li></ol></li><li class="chapter-item expanded "><a href="0203.html"><strong aria-hidden="true">3.3.</strong> 资产和被动收入</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="020301.html"><strong aria-hidden="true">3.3.1.</strong> 什么是资产</a></li><li class="chapter-item expanded "><a href="020302.html"><strong aria-hidden="true">3.3.2.</strong> 资产的获得方式</a></li><li class="chapter-item expanded "><a href="020303.html"><strong aria-hidden="true">3.3.3.</strong> 资产的量化评估</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="03.html"><strong aria-hidden="true">4.</strong> 优选资产</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="0301.html"><strong aria-hidden="true">4.1.</strong> 知识和人脉的变现</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="030101.html"><strong aria-hidden="true">4.1.1.</strong> 付费视频课</a></li><li class="chapter-item expanded "><a href="030102.html"><strong aria-hidden="true">4.1.2.</strong> 付费专栏</a></li><li class="chapter-item expanded "><a href="030103.html"><strong aria-hidden="true">4.1.3.</strong> 付费社群</a></li><li class="chapter-item expanded "><a href="030104.html"><strong aria-hidden="true">4.1.4.</strong> 图书出版</a></li></ol></li><li class="chapter-item expanded "><a href="0302.html"><strong aria-hidden="true">4.2.</strong> 自有产品和服务</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="030201.html"><strong aria-hidden="true">4.2.1.</strong> 应用市场卖APP</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="04.html"><strong aria-hidden="true">5.</strong> 精益副业</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="0401.html"><strong aria-hidden="true">5.1.</strong> 精益副业流程</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="040104.html"><strong aria-hidden="true">5.1.1.</strong> 商业模式画布</a></li><li class="chapter-item expanded "><a href="040105.html"><strong aria-hidden="true">5.1.2.</strong> 最小可行产品和产品市场契合</a></li></ol></li><li class="chapter-item expanded "><a href="0403.html"><strong aria-hidden="true">5.2.</strong> 精益独立开发实践</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="040301.html"><strong aria-hidden="true">5.2.1.</strong> 独立开发的精益流程</a></li><li class="chapter-item expanded "><a href="040302.html"><strong aria-hidden="true">5.2.2.</strong> 福利单词项目简介</a></li><li class="chapter-item expanded "><a href="040303.html"><strong aria-hidden="true">5.2.3.</strong> 福利单词的商业模式画布</a></li><li class="chapter-item expanded "><a href="040304.html"><strong aria-hidden="true">5.2.4.</strong> 通过用户画像细化客户</a></li><li class="chapter-item expanded "><a href="040305.html"><strong aria-hidden="true">5.2.5.</strong> 画像→场景→功能和分期</a></li><li class="chapter-item expanded "><a href="040306.html"><strong aria-hidden="true">5.2.6.</strong> 什么是好的商业设计</a></li><li class="chapter-item expanded "><a href="040307.html"><strong aria-hidden="true">5.2.7.</strong> 人人能用的四大原则</a></li><li class="chapter-item expanded "><a href="040308.html"><strong aria-hidden="true">5.2.8.</strong> 独特Logo解决方案</a></li><li class="chapter-item expanded "><a href="040309.html"><strong aria-hidden="true">5.2.9.</strong> 使用AdobeXD设计界面</a></li><li class="chapter-item expanded "><a href="040310.html"><strong aria-hidden="true">5.2.10.</strong> 个人支付解决方案</a></li><li class="chapter-item expanded "><a href="040311.html"><strong aria-hidden="true">5.2.11.</strong> 使用「兔小巢」处理用户反馈</a></li><li class="chapter-item expanded "><a href="040312.html"><strong aria-hidden="true">5.2.12.</strong> 2A3R漏斗和增长优化</a></li></ol></li><li class="chapter-item expanded "><a href="0402.html"><strong aria-hidden="true">5.3.</strong> 精益网课变现实践</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="040207.html"><strong aria-hidden="true">5.3.1.</strong> 大纲的注意点</a></li><li class="chapter-item expanded "><a href="040209.html"><strong aria-hidden="true">5.3.2.</strong> 通过预售验证销量</a></li><li class="chapter-item expanded "><a href="040210.html"><strong aria-hidden="true">5.3.3.</strong> 常见的课程片段类型</a></li><li class="chapter-item expanded "><a href="040211.html"><strong aria-hidden="true">5.3.4.</strong> 文稿讲义类课程片段的制作</a></li><li class="chapter-item expanded "><a href="040212.html"><strong aria-hidden="true">5.3.5.</strong> 屏幕录制类课程片段的制作</a></li><li class="chapter-item expanded "><a href="040213.html"><strong aria-hidden="true">5.3.6.</strong> 真人出镜类课程片段的制作</a></li><li class="chapter-item expanded "><a href="040214.html"><strong aria-hidden="true">5.3.7.</strong> 虚拟形象类课程片段的制作</a></li><li class="chapter-item expanded "><a href="040215.html"><strong aria-hidden="true">5.3.8.</strong> 最常用的视频剪辑操作</a></li><li class="chapter-item expanded "><a href="040216.html"><strong aria-hidden="true">5.3.9.</strong> 最常用的音频处理操作</a></li><li class="chapter-item expanded "><a href="040217.html"><strong aria-hidden="true">5.3.10.</strong> 字幕的制作和自动生成</a></li><li class="chapter-item expanded "><a href="040218.html"><strong aria-hidden="true">5.3.11.</strong> 流量池和二次购买</a></li><li class="chapter-item expanded "><a href="040219.html"><strong aria-hidden="true">5.3.12.</strong> 如何有效地反盗版</a></li></ol></li><li class="chapter-item expanded "><a href="0404.html"><strong aria-hidden="true">5.4.</strong> 进一步提升副业的鲁棒性</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="040401.html"><strong aria-hidden="true">5.4.1.</strong> 网课+独立开发的双引擎副业模式</a></li></ol></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">精益副业</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="时间片的优化"><a class="header" href="#时间片的优化">时间片的优化</a></h1>
+<p>时间片的优化有两个思路。</p>
+<h2 id="提升单位时间的收益"><a class="header" href="#提升单位时间的收益">提升单位时间的收益</a></h2>
+<p>提升单位时间的收益其实就是提升时薪（但并不一定局限于按时薪支付的副业，其他形式可以折算成时薪），有几个简单的思路。</p>
+<h3 id="切换地域"><a class="header" href="#切换地域">切换地域</a></h3>
+<p>「切换地域」就是说，我们同样是干活，但如果服务对象所在的位置不同的话，单位时间的收益也是不同的。</p>
+<p>比如你在重庆，给本地公司去做一些外包，那整个项目的基础价格就是参照当地程序员的人工成本来进行比价的。但如果是在重庆可以给北京的公司做外包，那发包方就会更多地参照北京的各种成本来进行相应的股价，这样我们就可以把自己单位时间的收益提升上去。当然，需要考虑沟通的效率和成本。</p>
+<p>把这个思路扩大一点，就变成在国内做国外的业务了。</p>
+<p>因为和国内相比，国外的人力成本通常会贵很多，如果你在二三线城市，那么成本又更低。这样就出现了一个价格差，如果能控制好这个价格差，我们就能挣到更多的钱。</p>
+<p>当然前边也说过，这里边有竞争和外语沟通的问题，需要根据自己的实际情况来选择。</p>
+<h3 id="从外包到二次开发"><a class="header" href="#从外包到二次开发">从外包到二次开发</a></h3>
+<p>在没有建立起自己的知名度之前，非常单纯地去做外包，面对的往往是价格战的红海。地球那么大，总有人的时间比你不值钱。</p>
+<p>而且外包它是一个开放性的需求，如果真要把很多雇主的需求细细做好的话，对技术栈的广度要求还挺高的。因为每一个项目它要求的技术栈可能不一样。项目做的越多，用到的偏门技术就可能越多。</p>
+<p>所以我们要想办法解决竞争的问题。细分市场就是一个很好的思路，比如说我们可以给一些标准化的开源产品做二次开发来挣钱。</p>
+<p>这其实不是什么特别新的思路，早在个人站长时代就有人专门给 Discuz！这个开源论坛软件写插件和定制功能挣钱,而且还真养活了不少小公司。</p>
+<p>现在我们可以把这个思路更扩展开一些，比如说我们把从「支持国内项目」变成「支持国际知名的项目」。</p>
+<p>这样的话，我们就能解决掉出海接活面临的大部分起步问题。</p>
+<p>你看：</p>
+<ul>
+<li>我们从什么地方来获得客户？直接从开源社区获取客户。</li>
+<li>如何证明我们的开发能力？ 可以写一些高质量的开源插件，给大家免费使用，并作为我们的demo。</li>
+<li>如何来获取比较高的收益？专门给一个项目写插件的团队并不是太多，选择够好的话，就可以成为这个细分领域的No.1，获得一些品牌上的溢价。</li>
+</ul>
+<h2 id="提升单位时间的效率"><a class="header" href="#提升单位时间的效率">提升单位时间的效率</a></h2>
+<p>提升单位时间的效率对于按工作量支付的副业来说特别重要。</p>
+<p>比如说我们现在有一个项目，交付后的收益是10万块钱。以原来的方式完成它，可能需要花100个小时。现在我们想到了一种新办法，把效率提升了10倍，那么原来100个小时才能完成的活，现在10个小时就能做完了，这就是效率的提升。</p>
+<p>多出来的90个小时我们可以用到其他项目上，哪怕是用来休息，也是很好的。</p>
+<h3 id="打鸡血难以奏效"><a class="header" href="#打鸡血难以奏效">打鸡血难以奏效</a></h3>
+<p>当然，通过增强意志力来强迫自己去提升生产效率，其实是很难奏效的。</p>
+<p>因为我们本来就是在利用工作之余的时间。在这个时间上，很难保证精力非常充沛。别说提升工作效率，能保证在做这些事情的时候尽可能的不被干扰，不让自己的生产效率降下去，已经是非常不错了。</p>
+<h3 id="自动化"><a class="header" href="#自动化">自动化</a></h3>
+<p>但是非常幸运的是，我们是程序员。我们从事的工作，它本身就有一部分是由机器来完成的，所以我们可以引入自动化来提升效率。机器是使用电来工作，它的效率提升空间是非常大的，而且它也不需要休息，可以7×24小时地进行工作。</p>
+<h4 id="代码生成器"><a class="header" href="#代码生成器">代码生成器</a></h4>
+<p>对于程序员的日常工作来说，最主要的自动化方式就是代码生成器。</p>
+<p>但一说到代码生成器，就会听到很多反对声音。如果你用过一些比较早期的代码生成器产品，很可能你也会会有一些负面印象。</p>
+<p>在大概十多年前吧，我当时所在的公司也就购买了一套代码生成工具。根据说明书，配置好业务逻辑，然后就可以同时生成ASP、PHP和JSP的代码。</p>
+<p>公司买来以后就强制性行推广，但在硬推了两个月以后，发现推不动，只好放弃了。</p>
+<p>最主要的原因是因为它没有办法处理我们特有的一些逻辑，加上每一个部门有自己独立的规范和周边库，在那个工具里边没法用上。之后很长的时间里，我们整个部门的人都对代码生成器非常反感。</p>
+<p>但是后来还是经不住偷懒的诱惑，我自己一直在偷偷地不断尝试。渐渐地发现，其实要做一套全世界通用的代码生成系统可能会特别难；但是如果只是给自己做一个专用的代码生成工具却非常简单，只要遵循以下两个原则。</p>
+<h5 id="只为自己设计"><a class="header" href="#只为自己设计">只为自己设计</a></h5>
+<p>第一个原则是「只为自己设计」。</p>
+<p>因为每一个公司，每一个部门甚至每一个岗位它所面临的需求是千差万别的，很难通过一个通用工具来解决，所以我们也很难买到为自己量身定制的工具。</p>
+<p>但如果自己来开发工具的话，就完全不同了。我们可以完全按照自己的工作流程、按照每天写代码的需求来进行设计。我们非常清楚写代码的时候，元数据是存放到什么地方的、通过什么样的方式进行加工、以及最终要生成怎样的代码。所以可以开发出非常好用的自用代码生成工具。</p>
+<h5 id="能自动化的自动化不能自动化的半自动化"><a class="header" href="#能自动化的自动化不能自动化的半自动化">能自动化的自动化，不能自动化的半自动化</a></h5>
+<p>第二个原则是「能自动化的自动化，不能自动化的半自动化」，后半句特别重要。</p>
+<p>很多程序员在设计代码生成工具的时候，往往太过完美主义，老想着要做一个系统把所有的工作都做完，最好点一下按钮后，什么事情都不用去做了。</p>
+<p>这当然是最理想的方式，但是我们的开发环境和其他的办公软件之间不一定存在交互接口，很多软件只有图形界面，不支持通过 API 进行数据交换。所以，很多时候我们就没法做成全自动。完美主义或者叫强迫症的同学就会说，既然这个东西不能完全自动化，那就直接手动来处理吧。</p>
+<p>但我们开发代码生成器的根本目标并不是要做一个完整的自动化产品，而是要提升我们的生产效率。所以，即使有一些地方不能做到完全的自动化，我们也可以把它做成半自动化。</p>
+<p>半自动化有两个思路。第一个思路是，我们可以通过交互方式来解决一些不能自动化，或者需要花很多时间去处理的细节问题。</p>
+<p>举一个例子，这个例子发生的年代比较久远，现在可能已经不适用了。</p>
+<p>我们当初在做网站的时候，有很多的资料都是编辑给的。那个年代还没有产品经理，都是由网站编辑给我们资料。他们都使用 office 软件来存放数据。</p>
+<p>当时是没有比较好的 office 格式解析包的，所以很多同学都放弃了数据的解析，改为手工输入。我给了一个解决方案，就是直接在 office 里复制数据表格，然后再粘贴到一个 textarea 里，最后用 PHP 分析 tab 和换行符号，把数据分离出来。为了防止分析错误，还做了一个界面来进行确认和手动修正。虽然没能实现全自动，但是比起手工输入数据，这个方案效率的提升是几十倍的。所以不要过分纠结于全自动化，有的解决方案不完美，但也可以很精彩。</p>
+<p>另外一个思路是，只对小操作做自动化，用来生成代码片段。比如说，我们在写输入处理的时候，往往需要根据数据表字段来对输入进行验证，这往往是一个重复劳动。所以，我就写了一个命令行的小工具，它可以直接读取数据表里边的字段和对应的注释，根据注释里的标记来判断对应的字段的验证信息，最后会自动生成验证部分的代码。我把这些代码粘贴到编辑器后，再进行相应的修改，就可以很快的完成验证工作。这没有什么技术含量，但是它可以切实提高我们的生产效率。</p>
+<p>这些只是我想到的思路，当然还有很多其他的。比如有的同学是通过工具链，通过命令行交互，来实现自动化。</p>
+<h4 id="人工智能"><a class="header" href="#人工智能">人工智能</a></h4>
+<p>代码模板呢，只能解决相对比较死板的规则。但最近随着人工智能的进步，在某些特定的场景下，原来很多低效率的人工操作其实可以交给 AI 了。</p>
+<p>现在，AI 的正确率确实达不到和人类同等水平。但是，还是前边那句话，「不能完全自动化的，可以考虑做成半自动化」。针对 AI 正确率不高的场景，我们可以通过人机结合的方式来处理。</p>
+<p>比如说，我们要进行图片分类，之前可能需要花上十几个小时的人工。现在使用 AI 进行分类，只需要十几秒。但是它可能有20%的图片分类是错的。</p>
+<p>我们就可以先让 AI 来进行分类，然后再人工确认一遍。确认花的时间可能是两个小时，但即使这样，比起之前的十个小时来讲，效率也提升到了五倍。</p>
+<p>最近很多人工智能接口的品质已经不错了。比如说，熟悉我微博的同学都知道，我经常会用语音的合成和识别服务来提升内容生产效率。</p>
+<p>比如我经常会发一些技术视频，但是又不想自己录音，于是就会使用人工智能来生成语音。而大家正在看的这本书里，至少有一半的内容我是通过语音识别APP，以每分钟100多字的速度记录下来，然后再二次进行修改、校正完成的。</p>
+<p>所以不管你对 AI 有什么看法，它现在已经在实实在在地改变着我们的生活。我们要思考的是，如何更好地利用它。</p>
+<p>如果服务足够可靠，我们就可以做成自动化服务，直接提供给最终用户；如果服务还不够可靠，我们可以把它放到中间流程里来提升效率。</p>
+<p>比如，同样是代码生成技术，如果我们把它做成面向不懂技术的人群的产品，服务不是很可靠的话，最终效果就会很惨；但同样品质的接口，如果我们把它做成面向开发者的服务，而且是在编辑器里面实时地进行代码补全和建议的工具，它就会显得非常好用，可以极大地提升生产效率。</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="020201.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="020203.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="020201.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="020203.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            var socket = new WebSocket("ws://localhost:3000/__livereload");
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>

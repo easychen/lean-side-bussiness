@@ -1,0 +1,239 @@
+<!DOCTYPE HTML>
+<html lang="zh-cn" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>使用AdobeXD设计界面 - 精益副业</title>
+        <!-- Custom HTML head -->
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="index.html"><strong aria-hidden="true">1.</strong> 精益副业</a></li><li class="chapter-item expanded "><a href="01.html"><strong aria-hidden="true">2.</strong> 为什么副业特别重要</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="0101.html"><strong aria-hidden="true">2.1.</strong> 职业可能性</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="010101.html"><strong aria-hidden="true">2.1.1.</strong> 职业的四大象限</a></li><li class="chapter-item expanded "><a href="010102.html"><strong aria-hidden="true">2.1.2.</strong> 没有副业的职业</a></li><li class="chapter-item expanded "><a href="010103.html"><strong aria-hidden="true">2.1.3.</strong> 副业带来的可能性</a></li></ol></li><li class="chapter-item expanded "><a href="0102.html"><strong aria-hidden="true">2.2.</strong> 职业自由度</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="010201.html"><strong aria-hidden="true">2.2.1.</strong> 从中指备用金说起</a></li><li class="chapter-item expanded "><a href="010202.html"><strong aria-hidden="true">2.2.2.</strong> PlanB和反脆弱</a></li><li class="chapter-item expanded "><a href="010203.html"><strong aria-hidden="true">2.2.3.</strong> 全新的工作自由度</a></li></ol></li><li class="chapter-item expanded "><a href="0103.html"><strong aria-hidden="true">2.3.</strong> 职业成长性</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="010301A.html"><strong aria-hidden="true">2.3.1.</strong> 新技术练兵场</a></li><li class="chapter-item expanded "><a href="010302.html"><strong aria-hidden="true">2.3.2.</strong> 业务敏感度</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="02.html"><strong aria-hidden="true">3.</strong> 如何优雅地做副业</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="0201.html"><strong aria-hidden="true">3.1.</strong> 想明白核心资源和核心优势</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="020101.html"><strong aria-hidden="true">3.1.1.</strong> 副业的核心资源</a></li><li class="chapter-item expanded "><a href="020102.html"><strong aria-hidden="true">3.1.2.</strong> 副业的核心优势</a></li></ol></li><li class="chapter-item expanded "><a href="0202.html"><strong aria-hidden="true">3.2.</strong> 时间片</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="020201.html"><strong aria-hidden="true">3.2.1.</strong> 时间片的销售</a></li><li class="chapter-item expanded "><a href="020202.html"><strong aria-hidden="true">3.2.2.</strong> 时间片的优化</a></li><li class="chapter-item expanded "><a href="020203.html"><strong aria-hidden="true">3.2.3.</strong> 突破时间片限制</a></li></ol></li><li class="chapter-item expanded "><a href="0203.html"><strong aria-hidden="true">3.3.</strong> 资产和被动收入</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="020301.html"><strong aria-hidden="true">3.3.1.</strong> 什么是资产</a></li><li class="chapter-item expanded "><a href="020302.html"><strong aria-hidden="true">3.3.2.</strong> 资产的获得方式</a></li><li class="chapter-item expanded "><a href="020303.html"><strong aria-hidden="true">3.3.3.</strong> 资产的量化评估</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="03.html"><strong aria-hidden="true">4.</strong> 优选资产</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="0301.html"><strong aria-hidden="true">4.1.</strong> 知识和人脉的变现</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="030101.html"><strong aria-hidden="true">4.1.1.</strong> 付费视频课</a></li><li class="chapter-item expanded "><a href="030102.html"><strong aria-hidden="true">4.1.2.</strong> 付费专栏</a></li><li class="chapter-item expanded "><a href="030103.html"><strong aria-hidden="true">4.1.3.</strong> 付费社群</a></li><li class="chapter-item expanded "><a href="030104.html"><strong aria-hidden="true">4.1.4.</strong> 图书出版</a></li></ol></li><li class="chapter-item expanded "><a href="0302.html"><strong aria-hidden="true">4.2.</strong> 自有产品和服务</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="030201.html"><strong aria-hidden="true">4.2.1.</strong> 应用市场卖APP</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="04.html"><strong aria-hidden="true">5.</strong> 精益副业</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="0401.html"><strong aria-hidden="true">5.1.</strong> 精益副业流程</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="040104.html"><strong aria-hidden="true">5.1.1.</strong> 商业模式画布</a></li><li class="chapter-item expanded "><a href="040105.html"><strong aria-hidden="true">5.1.2.</strong> 最小可行产品和产品市场契合</a></li></ol></li><li class="chapter-item expanded "><a href="0403.html"><strong aria-hidden="true">5.2.</strong> 精益独立开发实践</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="040301.html"><strong aria-hidden="true">5.2.1.</strong> 独立开发的精益流程</a></li><li class="chapter-item expanded "><a href="040302.html"><strong aria-hidden="true">5.2.2.</strong> 福利单词项目简介</a></li><li class="chapter-item expanded "><a href="040303.html"><strong aria-hidden="true">5.2.3.</strong> 福利单词的商业模式画布</a></li><li class="chapter-item expanded "><a href="040304.html"><strong aria-hidden="true">5.2.4.</strong> 通过用户画像细化客户</a></li><li class="chapter-item expanded "><a href="040305.html"><strong aria-hidden="true">5.2.5.</strong> 画像→场景→功能和分期</a></li><li class="chapter-item expanded "><a href="040306.html"><strong aria-hidden="true">5.2.6.</strong> 什么是好的商业设计</a></li><li class="chapter-item expanded "><a href="040307.html"><strong aria-hidden="true">5.2.7.</strong> 人人能用的四大原则</a></li><li class="chapter-item expanded "><a href="040308.html"><strong aria-hidden="true">5.2.8.</strong> 独特Logo解决方案</a></li><li class="chapter-item expanded "><a href="040309.html" class="active"><strong aria-hidden="true">5.2.9.</strong> 使用AdobeXD设计界面</a></li><li class="chapter-item expanded "><a href="040310.html"><strong aria-hidden="true">5.2.10.</strong> 个人支付解决方案</a></li><li class="chapter-item expanded "><a href="040311.html"><strong aria-hidden="true">5.2.11.</strong> 使用「兔小巢」处理用户反馈</a></li><li class="chapter-item expanded "><a href="040312.html"><strong aria-hidden="true">5.2.12.</strong> 2A3R漏斗和增长优化</a></li></ol></li><li class="chapter-item expanded "><a href="0402.html"><strong aria-hidden="true">5.3.</strong> 精益网课变现实践</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="040207.html"><strong aria-hidden="true">5.3.1.</strong> 大纲的注意点</a></li><li class="chapter-item expanded "><a href="040209.html"><strong aria-hidden="true">5.3.2.</strong> 通过预售验证销量</a></li><li class="chapter-item expanded "><a href="040210.html"><strong aria-hidden="true">5.3.3.</strong> 常见的课程片段类型</a></li><li class="chapter-item expanded "><a href="040211.html"><strong aria-hidden="true">5.3.4.</strong> 文稿讲义类课程片段的制作</a></li><li class="chapter-item expanded "><a href="040212.html"><strong aria-hidden="true">5.3.5.</strong> 屏幕录制类课程片段的制作</a></li><li class="chapter-item expanded "><a href="040213.html"><strong aria-hidden="true">5.3.6.</strong> 真人出镜类课程片段的制作</a></li><li class="chapter-item expanded "><a href="040214.html"><strong aria-hidden="true">5.3.7.</strong> 虚拟形象类课程片段的制作</a></li><li class="chapter-item expanded "><a href="040215.html"><strong aria-hidden="true">5.3.8.</strong> 最常用的视频剪辑操作</a></li><li class="chapter-item expanded "><a href="040216.html"><strong aria-hidden="true">5.3.9.</strong> 最常用的音频处理操作</a></li><li class="chapter-item expanded "><a href="040217.html"><strong aria-hidden="true">5.3.10.</strong> 字幕的制作和自动生成</a></li><li class="chapter-item expanded "><a href="040218.html"><strong aria-hidden="true">5.3.11.</strong> 流量池和二次购买</a></li><li class="chapter-item expanded "><a href="040219.html"><strong aria-hidden="true">5.3.12.</strong> 如何有效地反盗版</a></li></ol></li><li class="chapter-item expanded "><a href="0404.html"><strong aria-hidden="true">5.4.</strong> 进一步提升副业的鲁棒性</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="040401.html"><strong aria-hidden="true">5.4.1.</strong> 网课+独立开发的双引擎副业模式</a></li></ol></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">精益副业</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="使用adobexd设计界面"><a class="header" href="#使用adobexd设计界面">使用AdobeXD设计界面</a></h1>
+<h2 id="什么是-adobe-xd"><a class="header" href="#什么是-adobe-xd">什么是 Adobe XD</a></h2>
+<p><img src="images/4ee6f6ee095f864dc96282525b69380c2f28d1b5bf5ea0414d3abf30fa4ecd25.png" alt="picture 24" /></p>
+<p>Adobe XD是由 Adobe 开发的矢量设计工具，它和 Sketch 类似，既可以用来绘制矢量界面，又包含原型设计功能，还可以在手机上预览设计好的界面。XD 支持 Windows 和 Mac，是 Adobe 为数不多的可以免费使用的软件（当然你可以付费升级 pro 版本）。</p>
+<h2 id="使用-adobe-xd-设计简单界面"><a class="header" href="#使用-adobe-xd-设计简单界面">使用 Adobe XD 设计简单界面</a></h2>
+<p>软件的使用主要还是靠大家勤学多练，这里我们和大家演示下如何用它来设计背单词界面。</p>
+<h3 id="理解画板"><a class="header" href="#理解画板">理解画板</a></h3>
+<p>首先，我们在 XD 里新建一个画板（art board）。</p>
+<p>画板是什么？它相当于 Word 里边的页面。一般的纯设计工具没有画板这个概念，但 XD 也包含了原型功能，有时候我们需要在多个界面之间来回切换，而一个画板往往就是一个界面。</p>
+<p>点击左侧的菜单里面倒数第2个画板的按钮 <img src="images/f6b522f7c0704ff048773475e8b4334a2124d20946afa33c7c01edc406451710.png" alt="picture 25" /><br />
+，这时候在屏幕最右边就会出来一系列预置的画板尺寸。</p>
+<p><img src="images/7693c976618197069e64c816967294f735d0e4c2ef4e630dc5dff9d4c3f93e7b.png" alt="picture 26" /></p>
+<p>它已经帮我们准备好了常用的规格，比如苹果的iPhone、iPad，谷歌的安卓机型，以及网页常见的尺寸。</p>
+<p>我们只要从里边选择对应的尺寸就好了，当然也可以不选择它给你预置的，直接手工拖拽来画或者在属性里面调整画板的宽和高。那我们就新建一个iPhone Xs尺寸的画板好了。</p>
+<p>然后按住 CTRL或者CMD + D，就可以直接复制画板。我们把第一个画板叫做背单词界面，然后开始设计。</p>
+<p><img src="images/5941a5dce13909f4044ccfe800d42f713520a1084d0adf2d8015c38e1989cc80.png" alt="picture 27" /></p>
+<h3 id="遮罩的制作"><a class="header" href="#遮罩的制作">遮罩的制作</a></h3>
+<p>先来制作背单词时，字母没有输入完时显示的遮罩效果。选择左侧工具栏中的矩形 <img src="images/12ae742ca490d93ce20f9c5aa96b494512bd0aca9e5df9c10d3f1c1128c675c8.png" alt="picture 29" /><br />
+工具，画出一个覆盖全部画板的长方形。然后调节填充颜色为黑色，透明度为 30%。</p>
+<p><img src="images/68d0fb889f33813c5b58f53dd088a35b2d2a74127a6deef8252e33c5b04d8d46.png" alt="picture 30" /></p>
+<p>然后我们到 unsplash.com 这个无版权网站上，找一只猫的图片，把它也放进来。</p>
+<p><img src="images/26ce365a5cd2b48a7e9926feec288fc4ec36c555d2bcbdcf137fb9609cc6118c.png" alt="picture 28" /></p>
+<p>这时候猫是在遮罩上方的，所以它挡住了遮罩。</p>
+<p><img src="images/3fd45f459adc6bf0949a9a25498fffe39927996eccac6bf0342c5fbdc815c495.png" alt="picture 31" /></p>
+<p>点击右键，选择「Send to back」将它放到遮罩后，我们就可以看到被半透明遮罩挡住的猫了。</p>
+<h3 id="单词释义和输入框"><a class="header" href="#单词释义和输入框">单词释义和输入框</a></h3>
+<p>接下来，在遮罩上边，我们来放上单词释义和输入框。点击最左侧工具栏中的 <img src="images/67fb978bc2912408fb6e347eab440d3da5d161b8c1f6dd21738d5769d8c8695b.png" alt="picture 33" /><br />
+图标，切换到文字工具。</p>
+<p>然后输入文字释义。</p>
+<p><img src="images/36e31721ae40e108f0ba3b4fcb5cdf44e63263686f02acbe0282d587b53675bf.png" alt="picture 32" /></p>
+<p>在右侧的属性面板里，我们可以调节文字的字体、大小、颜色和对齐。</p>
+<p>然后我们放上之前设计好的 Logo，加上单词输入框。</p>
+<p><img src="images/21aaded8aee1a6683c5ed1f76958bcbadcdd40d79e61dea141d7e6328c0614d8.png" alt="picture 34" /></p>
+<p>注意这个输入框不一定非要是「框」，比如我们这里也可以把它做成下划线。</p>
+<h3 id="虚拟键盘"><a class="header" href="#虚拟键盘">虚拟键盘</a></h3>
+<p><img src="images/cd7edb97da404b395f2f3821ffbbdb7e42ed1f20904943525d4ed429fd9a7896.png" alt="picture 35" /></p>
+<p>虚拟键盘的制作在 XD 中也很简单，直接用矩形工具绘制就行。需要注意的是圆角的做法。</p>
+<p><img src="images/b258617ad1104a072548cda70c147292a862e06c3046c3b3e44b8d5a3a286cd1.png" alt="picture 36" /></p>
+<p>其实很简单，在右侧的属性设置里边，把圆角从0 改为 5 就可以了。在做好一个按钮后，我们可以按住 Shift 同时选中按钮和上边的文字，在右键菜单中将其编组（Group）；然后按 CTRL或者CMD + D 就可以复制按钮。</p>
+<p><img src="images/18349a2006555ddc932fa806936d801a93b9fb43f88fe9146026a7fbaa5311aa.png" alt="picture 37" /></p>
+<p>当按钮多起来之后，要对齐它们还挺费事的。其实选中多个按钮后，可以在菜单 Object → Align 中来自动对齐；也可以在 Object → Distribute 中让它们自动均匀分布。</p>
+<h3 id="矢量图标"><a class="header" href="#矢量图标">矢量图标</a></h3>
+<p>再下来，我们需要在界面中引入图标。既然是矢量界面，当然是矢量图标最好。前边我们已经介绍过 thenounproject.com 了，它还为 pro 用户提供了一个客户端。在这个客户端里边可以非常方便的复制图标。</p>
+<p><img src="images/8c11c4cd1362d30f45d5056462f130adfc819fe1348c03748855602868e07e04.png" alt="picture 38" /></p>
+<p>当我们通过关键字搜索到图标后，可以通过下载并将其拖拽到 XD 的方式引入；也可以直接在客户端中右键选择 Copy as SVG，然后直接粘贴。因为是 SVG 格式，调整完大小后可以很方便地更换颜色。</p>
+<p>最后我们再微调一下输入框和单词释义的位置，背单词界面就做完了。其他界面的制作非常类似，就不在这里累述了。</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="040308.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="040310.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="040308.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="040310.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            var socket = new WebSocket("ws://localhost:3000/__livereload");
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>
