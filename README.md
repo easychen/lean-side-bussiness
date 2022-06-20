@@ -4,9 +4,8 @@
 
 在书籍第二部分，以实际案例为主，添加了「独立开发变现」和「网课变现实践」的内容。
 
-本书成书于2012年12月，在阅读完本书后，可以阅读[一人公司方法论](https://github.com/easychen/one-person-businesses-methodology)。
+本书成书于2020年12月，晚于[一人公司方法论](https://github.com/easychen/one-person-businesses-methodology)，在阅读完本书后，可以阅读[一人公司方法论](https://github.com/easychen/one-person-businesses-methodology)。将来如有机会，我会尝试把「精益副业」和「一人公司方法论」整合到一个体系下。可扫[这个二维码](qrcode.jpeg)订阅更新通知。
 
-将来如有机会，我会尝试把「精益副业」和「一人公司方法论」整合到一个体系下。
 
 ![cover.jpg](cover.jpg)
 
