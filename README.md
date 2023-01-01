@@ -1,10 +1,15 @@
 # 精益副业：程序员如何优雅地做副业
 
+> 本书部分内容已被收录于《全栈路线图》，[可点此查看高清版PDF和源文件](https://github.com/easychen/stack-roadmap)
+
+[![方糖全栈路线图](https://user-images.githubusercontent.com/1294760/210160612-68e4a551-47d8-4137-b2f1-4dd5fdf6d49d.jpg)](https://github.com/easychen/stack-roadmap)
+
 本书扩展了《程序员如何优雅地挣零花钱》的基本内容，将其放到更大的副业视角；同时，引入经过互联网行业验证的「精益创业」流程，并优化为副业专用的「精益副业」流程。
 
 在书籍第二部分，以实际案例为主，添加了「独立开发变现」和「网课变现实践」的内容。
 
 本书成书于2020年12月，晚于[一人公司方法论](https://github.com/easychen/one-person-businesses-methodology)，在阅读完本书后，可以阅读[一人公司方法论](https://github.com/easychen/one-person-businesses-methodology)。将来如有机会，我会尝试把「精益副业」和「一人公司方法论」整合到一个体系下。可扫[这个二维码](qrcode.jpeg)订阅更新通知。
+
 
 
 ![cover.jpg](cover.jpg)
