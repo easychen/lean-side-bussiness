@@ -1,6 +1,6 @@
 # 精益副业：程序员如何优雅地做副业
 
-## UPDATE：🎈 [《一人企业方法论2.0》已在CC-BY-NC-SA协议下发布，建议先读完后继续阅读本书](https://github.com/easychen/one-person-businesses-methodology-v2.0) 
+UPDATE：🎈 [《一人企业方法论2.0》已在CC-BY-NC-SA协议下发布，建议先读完后继续阅读本书](https://github.com/easychen/one-person-businesses-methodology-v2.0) 
 
 ![](https://github.com/easychen/one-person-businesses-methodology-v2.0/raw/master/src/images/opb-book-cover.jpg)
 
